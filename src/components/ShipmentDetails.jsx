@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import MapView from "./Mapview";
+import MapView from "./MapView.jsx";
 import { Loader2, AlertCircle } from "lucide-react";
 
 const ShipmentDetails = () => {
