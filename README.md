@@ -31,7 +31,7 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env` file in the root directory and add the API base URL:
+I am attaching readme.md on backend repository to see that also
 ```sh
 backend URL=http://localhost:5000/api
 ```
