@@ -1,8 +1,79 @@
-# React + Vite
+# Shipment-F (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shipment-F is the frontend of the Cargo Shipment Tracker application, built using React and Redux. It provides a modern, responsive UI for tracking shipments, filtering data, and viewing shipment details on an interactive map.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📦 **Shipment Dashboard** – View all shipments in a clean and modern UI.
+- 🔍 **Search & Filter** – Easily find shipments using search and filtering options.
+- 🗺️ **Map Integration** – Track shipments on a map using `react-leaflet` or `google-maps-react`.
+- 🎨 **Dark Mode** – Toggle between light and dark themes.
+- ⚡ **Framer Motion Animations** – Smooth and modern UI transitions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React.js** – Frontend framework
+- **Redux Toolkit** – State management
+- **Tailwind CSS v4** – Styling
+- **Framer Motion** – Animations
+- **React Router** – Navigation
+- **Axios** – API calls
+- **React-Leaflet / Google Maps API** – Shipment tracking on maps
+
+## 📥 Installation
+
+Clone the repository:
+```sh
+git clone https://github.com/yourusername/shipment-f.git
+cd shipment-f
+```
+
+Install dependencies:
+```sh
+npm install
+```
+
+Create a `.env` file in the root directory and add the API base URL:
+```sh
+REACT_APP_API_URL=http://your-backend-url.com/api
+```
+
+Run the development server:
+```sh
+npm run dev
+```
+
+## 🚀 Deployment
+### **Vercel Deployment**
+```sh
+npm install -g vercel
+vercel
+```
+
+### **Netlify Deployment**
+```sh
+npm install -g netlify-cli
+netlify deploy
+```
+
+## 📜 API Endpoints (Used in Frontend)
+Ensure the backend (Shipment-B) is running properly. The frontend interacts with these endpoints:
+
+- `GET /api/shipments` – Fetch all shipments
+- `GET /api/shipments/:id` – Get a single shipment
+- `POST /api/shipments` – Create a new shipment
+- `PUT /api/shipments/:id` – Update shipment details
+- `DELETE /api/shipments/:id` – Delete a shipment
+
+
+
+---
+
+## 📌 TODO (Future Enhancements)
+- ✅ Add sorting options for shipments
+- ✅ Improve shipment tracking with real-time updates
+- ✅ Implement user authentication for admin features
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit a pull request.
+
+## 📄 License
+This project is licensed under the MIT License.
