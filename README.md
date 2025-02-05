@@ -33,10 +33,17 @@ npm install
 
 Create a `.env` file in the root directory and add the API base URL:
 ```sh
-REACT_APP_API_URL=http://your-backend-url.com/api
+backend URL=http://localhost:5000/api
+```
+```
+https://github.com/Aryam2121/Shipment-B
+```
+Go on backend repository clone that and run to start backend Then You do all operations You want
+```
+npm run dev 
 ```
 
-Run the development server:
+Run the Frontend or its on the vercel also :
 ```sh
 npm run dev
 ```
